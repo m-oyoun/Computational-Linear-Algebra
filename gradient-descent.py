@@ -9,7 +9,6 @@ iterations = 20
 print("--- Gradient Descent Simulation ---")
 print(f"Starting Weight: {current_w}\n")
 
-# 3. The Optimization Loop
 for step in range(iterations):
     slope = get_derivative(current_w)
     
